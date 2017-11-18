@@ -1,0 +1,15 @@
+{
+  "name": "app_debeka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "PW=enbwblockchain NODE_URL='http://localhost:8001/api/v1/namespaces/blockchain/services/geth-ropsten:8545/proxy/' nodejs server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "web3": "^0.19.0"
+  }
+}
